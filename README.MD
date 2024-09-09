@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>NEXT.JS LEXICAL BLOG</h2>
+  <h2>NEXT.JS Point Agi Club</h2>
 </div>
 
 <div align="center">

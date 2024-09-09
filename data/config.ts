@@ -2,15 +2,14 @@ import type { TConfig } from "@/types/config.type";
 
 export const Config: TConfig = {
   // Image url for avatar.
-  AvatarURL: "/images/avatar.webp",
+  AvatarURL: "/images/mainLogo.jpg",
   // Your favorite motto, or a brief self-introduction, for homepage display
-  Sentence:
-    "Two things fill the mind with ever-increasing wonder and awe: the starry heavens above and the moral law within.",
+  Sentence: "Two things fill the mind with ever-increasing wonder and awe: the starry heavens above and the moral law within.",
   // Your nickname, or pen name here.
-  Nickname: "John Doe",
+  Nickname: "Point Agi Club",
 
   // Website main title.
-  SiteTitle: "LEXICAL BLOG",
+  SiteTitle: "Point Agi Club",
   // Your domain for website.
   SiteDomain: "nextjs-lexical-blog-demo.vercel.app",
 

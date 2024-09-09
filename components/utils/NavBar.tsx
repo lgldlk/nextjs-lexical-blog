@@ -39,7 +39,7 @@ export const NavBar = () => {
           </h1>
         </Link>
         <div className="my-auto hidden sm:flex">
-          {MenuItems.map((menuItem) => (
+          {/* {MenuItems.map((menuItem) => (
             <Link
               className="mx-2 my-auto px-2 font-bold hover:text-sky-700 dark:hover:text-sky-500"
               href={menuItem.href}
@@ -55,7 +55,7 @@ export const NavBar = () => {
             title="Search posts by keywords"
           >
             <MdSearch />
-          </Link>
+          </Link> */}
           <div
             className="mx-1 cursor-pointer rounded-full p-1 text-3xl text-black hover:bg-gray-200 dark:text-gray-50 dark:hover:bg-gray-800"
             onClick={handleSwitchTheme}
@@ -78,7 +78,7 @@ export const NavBar = () => {
         </div>
       </div>
       <SheetContent className="bg:white flex flex-col border-none py-16 text-end shadow-md dark:bg-black">
-        {MenuItems.map((menuItem) => (
+        {/* {MenuItems.map((menuItem) => (
           <Link
             className="border-b border-dashed p-3 text-xl hover:text-sky-500"
             href={menuItem.href}
@@ -95,11 +95,8 @@ export const NavBar = () => {
           title="Search the posts"
         >
           {"SEARCH"}
-        </Link>
-        <div
-          className="flex cursor-pointer justify-end border-b border-dashed p-3 text-xl hover:text-sky-500"
-          onClick={handleSwitchTheme}
-        >
+        </Link> */}
+        <div className="flex cursor-pointer justify-end border-b border-dashed p-3 text-xl hover:text-sky-500" onClick={handleSwitchTheme}>
           <div
             className="mx-1 my-auto cursor-pointer rounded-full text-2xl"
             title={theme === "light" ? "Switch to dark mode" : "Switch to light mode"}

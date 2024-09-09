@@ -1,3 +1,4 @@
+import MainAni from "@/components/home-ani/MainAni";
 import { HomeCover } from "@/components/home-page/HomeCover";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -29,7 +30,8 @@ export default function Home(props: HomePageProps) {
         description={`Welcome to the ${Config.Nickname}'s blog website. It's the website for recording thoughts for technology, life experience and so on.`}
         title={`${Config.SiteTitle} - The personal blog for ${Config.Nickname}`}
       />
-      <NavBar />
+      {/* <NavBar /> */}
+      <MainAni />
       <ContentContainer>
         <HomeCover />
         {props.pinnedPostList.length !== 0 && (
